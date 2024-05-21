@@ -32,15 +32,13 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final List<String> _listNama = [
-    'Bagus',
-    'Budi',
-    'Andi',
-    'Sari',
-    'Rudi',
-    'Nurul',
-    'Huda',
-    'Lendis',
-    'Fabri'
+    'Naufal',
+    'hanif',
+    'linen',
+    'rio',
+    'faisal',
+    'revaldo',
+    
   ];
 
   final List<Color> _listWarna = [
@@ -50,9 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
     const Color.fromARGB(255, 103, 57, 220),
     const Color.fromARGB(255, 181, 63, 167),
     Color.fromARGB(255, 183, 58, 102),
-    Color.fromARGB(255, 123, 66, 12),
-    Color.fromARGB(255, 11, 50, 82),
-    Color.fromARGB(255, 138, 156, 139)
+    
   ];
 
   int _index = 0;
